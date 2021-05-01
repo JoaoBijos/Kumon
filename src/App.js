@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+import {
+  Container,
+  Content
+} from './style';
+
+
+import Cards from './components/Cards'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Content>
+        <h1 style={{
+          maxWidth:'468px',
+          display: 'flex',
+          flexWrap: 'wrap',
+          color: '#90ECFF',
+        }}>
+          Bem Vindo a nossa Plataforma !
+        </h1>
+        <Cards/>
+      </Content>
+    </Container>
   );
 }
 
