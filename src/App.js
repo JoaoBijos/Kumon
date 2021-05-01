@@ -2,7 +2,8 @@ import React from 'react'
 
 import {
   Container,
-  Content
+  Content,
+  Title
 } from './style';
 
 
@@ -12,14 +13,9 @@ function App() {
   return (
     <Container>
       <Content>
-        <h1 style={{
-          maxWidth:'468px',
-          display: 'flex',
-          flexWrap: 'wrap',
-          color: '#90ECFF',
-        }}>
-          Bem Vindo a nossa Plataforma !
-        </h1>
+        <Title>
+          Bem-vindo a nossa Plataforma !
+        </Title>
         <Cards/>
       </Content>
     </Container>

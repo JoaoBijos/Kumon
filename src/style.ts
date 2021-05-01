@@ -7,11 +7,19 @@ export const Container = styled.div`
     max-height: 100%;
 `
 export const Content = styled.div`
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
-    text-align: center,
+`
+export const Title = styled.h1`
+    width: 100%;
+    max-width: 472px;
+    flex-wrap: wrap;
+    color: #A7E5ED;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align:center;
 `
